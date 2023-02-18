@@ -1,0 +1,295 @@
+#Blog_details_part {
+    .Blog_det_head {
+        h3 {
+            padding-top: 100px;
+            color: #d9b257;
+            font-size: 29px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            line-height: 40px;
+        }
+    }
+
+    .icons {
+        .icon_farst {
+            margin-left: 123px;
+
+            a {
+                color: #777;
+                font-size: 14px;
+                font-family: "Lato";
+                font-weight: 400;
+                margin-top: 10px;
+                padding-right: 25px;
+                padding-bottom: 55px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .icon_suoen {
+            a {
+                color: #777;
+                font-size: 14px;
+                font-family: "Lato";
+                font-weight: 400;
+                margin-top: 10px;
+                padding-right: 25px;
+                padding-bottom: 55px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .det_para {
+        p {
+            color: #444;
+            font-size: 16px;
+            font-family: "Lato";
+            font-weight: 400;
+            line-height: 24px;
+            padding: 20px 0 56px 0;
+
+            span {
+                display: block;
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .blog_det_bg {
+        padding: 40px 20px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #f403d1, #64b5f6);
+        transition: all linear .3s;
+
+        &:hover {
+            background: linear-gradient(135deg, #000000, #ff00ee);
+            color: #d9b257;
+        }
+
+        p {
+            color: #fff;
+            font-size: 22px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            font-style: italic;
+            padding: 0px 25px;
+        }
+    }
+
+    .para_bt {
+        p {
+            color: #444;
+            font-size: 16px;
+            font-family: none;
+            font-weight: 400;
+            font-family: 'Arimo', sans-serif;
+            line-height: 26px;
+            padding-bottom: 40px;
+            padding-top: 55px;
+        }
+    }
+
+    .Blog_tik_farst {
+        margin-left: 88px;
+
+        ul {
+            li {
+                color: #444;
+                font-size: 16px;
+                font-family: none;
+                font-weight: 400;
+                font-family: 'Arimo', sans-serif;
+                line-height: 44px;
+
+                i {
+                    color: #d9b257;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    .tag {
+        .Tags {
+            span {
+                color: #151515;
+                font-size: 20px;
+                font-family: "Montserrat Alternates";
+                font-weight: 500;
+                padding-right: 22px;
+                line-height: 24px;
+            }
+
+            a {
+                color: #444;
+                font-size: 14px;
+                font-family: "Lato";
+                font-weight: 400;
+                padding: 10px;
+                border: 1px solid #ddd;
+                margin-right: 10px;
+                line-height: 25px;
+                margin-top: 85px;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                margin-left: 4px;
+
+                &:hover {
+                    color: #d9b257;
+                    border-color: #d9b257;
+                }
+            }
+        }
+    }
+
+    .share {
+        span {
+            color: #151515;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            padding-right: 22px;
+            line-height: 24px;
+        }
+
+        a {
+            color: #777;
+            font-size: 16px;
+            font-family: "none";
+            font-weight: 400;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            margin-right: 3px;
+            margin-top: 40px;
+        }
+    }
+
+    .Comments_head {
+        h4 {
+            color: #151515;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            line-height: 22px;
+            padding-bottom: 37px;
+            margin-top: 100px;
+        }
+    }
+
+    .com_txt {
+        padding-left: 25px;
+
+        h5 {
+            color: #151515;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            display: inline-block;
+        }
+
+        span {
+            color: #999;
+            font-size: 14px;
+            font-family: "Lato";
+            font-weight: 400;
+            float: right;
+            line-height: 22px;
+        }
+
+        p {
+            color: #444;
+            font-size: 14px;
+            font-family: "Lato";
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 0 !important;
+        }
+
+        a {
+            color: #999;
+            font-size: 14px;
+            font-family: "Lato";
+            font-weight: 400;
+            display: inline-block !important;
+
+            i {
+                padding-right: 5px;
+            }
+        }
+    }
+
+    .second {
+        padding-top: 30px;
+    }
+
+    .Thard {
+        padding-top: 30px;
+    }
+
+    .from_part {
+        .mar_left {
+            width: 285px;
+            height: 69px;
+        }
+
+        input {
+            font-size: 13px;
+            font-family: "Arial";
+            font-weight: 400;
+            font-style: italic;
+            padding-left: 10px;
+            color: #999;
+        }
+
+        textarea {
+            margin-top: 10px;
+            width: 538px;
+            height: 117px;
+            font-size: 16px;
+            font-family: "Arial";
+            font-weight: 400;
+            font-style: italic;
+            padding-left: 10px;
+            padding-top: 10px;
+            border-color: #999;
+            color: #999;
+        }
+
+        button {
+            width: 434px;
+            height: 60px;
+            color: #444;
+            border: 1px solid #9990;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            transition: all linear .3s;
+            &:hover{
+                background: linear-gradient(135deg, #f403d1, #64b5f6);
+                color: #fff;
+            }
+        }
+    }
+    .mar{
+        padding-left: 80px;
+    }
+}

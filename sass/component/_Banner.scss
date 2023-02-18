@@ -1,0 +1,164 @@
+.banner_item {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding: 100px 0 320px;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+
+    }
+
+    .banner_text h6 {
+
+        color: #d9b257;
+        font-size: 16px;
+        font-family: "Montserrat Alternates";
+        font-weight: 500;
+        padding-bottom: 10px;
+
+    }
+
+    .banner_text a {
+        
+            color: #fff;
+            font-size: 18px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            margin-top: 50px;
+            display: inline-block !important;
+            z-index: 1;
+            position: relative;
+        
+
+        i {
+            padding-left: 45px;
+            line-height: 50px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 21px;
+                bottom: 0;
+                width: 2px;
+                height: 0;
+                background: #000;
+                transform: rotate(14deg);
+                transition: all linear .3s;
+            }
+        }
+
+        &::after {
+            
+                position: absolute;
+                content: '';
+                left: -18px;
+                bottom: 1px;
+                width: 117%;
+                height: 2px;
+                background: #d9b257;
+                z-index: -1;
+                transition: all linear .3s;
+        }
+
+        &:hover::after{
+            height: 48px;
+        }
+
+        &:hover i::after{
+            height: 52px;
+        }
+    }
+
+
+    h1 {
+        color: #fff;
+        font-size: 54px;
+        font-family: "Montserrat Alternates";
+        font-weight: 500;
+
+        span {
+            font-weight: 700;
+            padding-top: 3px;
+        }      
+    }
+}
+.small_text {
+
+    h2{
+        color: #fff;
+        font-size: 44px;
+        font-family: "Montserrat Alternates";
+        margin-left: 23px;
+        font-weight: 700;
+        
+    }
+
+    p{
+        color: #fff;
+        font-size: 16px;
+        margin-left: 23px;
+        font-family: "Montserrat Alternates";
+        font-weight: 500;
+       
+    }
+
+    span{
+        color: #fff;
+        font-size: 16px;
+        font-family: "Lato";
+        font-weight: 500;
+        margin-left: 23px;
+    }
+}
+
+#banner_part{
+    position: relative;
+    .small_slider{
+        position: absolute;
+        left: 0;
+        bottom: 54px;
+        width: 100%;
+
+        .banner_border{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                top: -40px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: #fff;
+
+            }
+        }
+
+        .slick-slide {
+            margin: 0 12px;
+            padding-top: 50px;
+        }
+        .slick-current{
+            .banner_border{
+                &::after{
+                background: #d9b257;           
+    
+                }
+            }
+        }
+    }
+}
+
+.row {
+    --bs-gutter-x: -0.5rem;
+}

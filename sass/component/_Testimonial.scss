@@ -1,0 +1,137 @@
+#Testimonial_part {
+    .test_head {
+        h5 {
+            @extend %head;
+        }
+
+        h3 {
+
+            color: #999;
+            font-size: 28px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-bottom: 52px;
+            margin: 0 40px;
+
+        }
+    }
+
+    .text {
+
+        position: relative;
+        margin-right: 50px;
+        width: 507px;
+        height: 405px;
+        background: #f1f1f1;
+
+
+
+        p {
+
+
+            color: #444;
+            font-size: 19px;
+            font-family: "Lato";
+            font-weight: 400;
+            padding-bottom: 129px;
+            line-height: 30px;
+            padding: 49px;
+
+
+        }
+
+        span {
+
+            font-family: "Autograf";
+            color: #d9b257;
+            position: absolute;
+            left: 50px;
+            top: 280px;
+
+
+        }
+
+        img {
+            position: absolute;
+            right: 234px;
+            top: 249px;
+
+
+        }
+
+        .overly {
+
+            position: absolute;
+            right: -33px;
+            bottom: 19px;
+            height: 163px;
+            width: 249px;
+            padding: 45px;
+            background: #d9b257;
+
+
+            h5 {
+
+                color: #fff;
+                font-size: 18px;
+                font-family: "Montserrat Alternates";
+                font-weight: 500;
+
+            }
+
+            h6 {
+                color: #fff;
+                font-size: 18px;
+                font-family: "Montserrat Alternates";
+                font-weight: 500;
+                margin-top: 10px;
+            }
+
+            i {
+                color: #fff;
+                margin-top: 10px;
+            }
+        }
+
+        .dag{
+            
+                position: absolute;
+                width: 15px;
+                height: 406px;
+                right: -62px;
+                top: 0;
+                background: #ffffff;
+                z-index: 1;
+            
+            
+        }
+        
+    }
+
+    .testimonial_slider{
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+        li{
+            button{
+              font-size: 0;
+              width: 16px;
+              height: 16px;
+              background: transparent;
+              border-radius: 50%;
+              border: 2px solid #9999;
+              margin: 0 7px;
+              margin-top: 60px;
+            }
+        }
+
+        .slick-dots li.slick-active button{
+            width: 18px;
+            height: 18px;
+            background: #d9b257;
+            border-color: #d9b257;
+        }
+    }
+    
+}

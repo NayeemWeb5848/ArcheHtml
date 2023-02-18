@@ -1,0 +1,47 @@
+#about_page_banner {
+    z-index: 1;
+    padding: 60px 0;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+    }
+
+    .breadcrumb {
+        justify-content: center;
+    }
+
+    .about_page_text {
+        h1 {
+            color: #d9b257;
+            font-size: 44px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+        }
+
+        .Fhom {
+            a {
+                color: #fff;
+                font-size: 16px;
+                font-family: "Montserrat Alternates";
+                font-weight: 400;
+            }
+        }
+
+        .Sabu {
+            a {
+                color: #d9b257;
+                font-size: 16px;
+                font-family: "Montserrat Alternates";
+                font-weight: 400;
+            }
+        }
+    }
+}

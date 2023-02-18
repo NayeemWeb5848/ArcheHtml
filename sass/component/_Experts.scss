@@ -1,0 +1,126 @@
+#Experts_part {
+    padding: 57px 0 57px;
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+
+    &::after {
+        @include BannerAfter(rgba(0, 0, 0, 0.9));
+    }
+
+    .experts_head {
+        h6 {
+            @extend %head;
+        }
+
+        h3 {
+
+            color: #fff;
+            font-size: 21px;
+            font-family: "Montserrat Alternates";
+            font-weight: 400;
+            padding-bottom: 52px;
+            margin: 0 35px;
+
+
+        }
+    }
+
+    .project_text {
+        padding-left: 30px;
+
+            &:hover h4,
+            &:hover h6{
+                color: #d9b257;
+            }
+    
+
+        h4 {
+            color: #fff;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            margin-top: 25px;
+            // transition: all linear .2s;
+            // -webkit-transition: all linear 0.4s;
+            // -moz-transition: all linear 0.4s;
+            // -ms-transition: all linear 0.4s;
+            // -o-transition: all linear 0.4s;
+
+        }
+
+        h6 {
+
+
+            color: #999;
+            font-size: 14px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin-top: 7px;
+            // transition: all linear .2s;
+            // -webkit-transition: all linear 0.4s;
+            // -moz-transition: all linear 0.4s;
+            // -ms-transition: all linear 0.4s;
+            // -o-transition: all linear 0.4s;
+
+        }
+    }
+
+    .project_img {
+        position: relative;
+
+        .overly {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 0;
+            background: rgba(0, 0, 0, 0.8);
+            opacity: 0;
+            transition: all linear .3s;
+            text-align: center;
+
+        }
+
+        &:hover .overly {
+            height: 100%;
+            opacity: 1;
+        }
+    }
+
+    .inner_project {
+        h5 {
+            color: #fff;
+            margin-top: 200px;
+            font-size: 16px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            padding-right: 7px;
+            display: inline-block;
+
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .project_button {
+        padding: 78px;
+
+        a {
+            padding: 20px 20px;
+            color: #222;
+            font-size: 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            position: relative;
+            line-height: 8px;
+            z-index: 1;
+
+            @extend %botton;
+
+        }
+    }
+}
